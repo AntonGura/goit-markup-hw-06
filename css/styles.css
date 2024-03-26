@@ -202,26 +202,32 @@ img {
 /* =============HERO============ */
 .hero {
     background-color: #2e2f42;
-    background-image: linear-gradient(
+    /* background-image: linear-gradient(
         to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)
-    ), url(/images/people-office-img.jpg);
+    ), url(/images/people-office-img.jpg); */
+background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/Dark-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-        padding: 188px 0;
-        max-width: 1440px;
+        /* padding: 188px 0;
+        max-width: 1440px; */
+        padding: 72px 0;
 }
 
 .hero-tittle {
         font-weight: 700;
-        font-size: 56px;
-        line-height: 1.07;
+        /* font-size: 56px;
+        line-height: 1.07; */
+        font-size: 36px;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
-        max-width: 496px;
+        /* max-width: 496px; */
+        max-width: 216px;
         margin: 0 auto;
-        margin-bottom: 48px;
+        /* margin-bottom: 48px; */
+        margin-bottom: 72px;
 }
 
 .hero-tittle-btn {
@@ -241,7 +247,7 @@ img {
         height: 56px;
 }
 
-.hero-tittle-btn:hover,
+/* .hero-tittle-btn:hover, */
 .hero-tittle-btn:focus {
     background: #404bbf;
 }
@@ -960,6 +966,17 @@ color: #8e8f99;
                 width: calc((100% - 24px) / 2);;
         }
 
+        .hero {
+                padding: 72px 0;
+        }
+
+        .hero-tittle {
+                font-size: 56px;
+                line-height: 1.07;
+                max-width: 496px;
+                margin-bottom: 36px;
+        }
+
 }
 
 @media screen and (min-width: 1158px) {
@@ -1067,6 +1084,20 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 
 .social-list-item-link:hover {
         background-color: #404bbf;
+}
+
+.hero {
+        background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/people-office-img.jpg);
+        padding: 188px 0;
+        width: 100%;
+}
+
+.hero-tittle {
+        margin-bottom: 48px;
+}
+
+.hero-tittle-btn:hover {
+        background: #404bbf;
 }
 
 }

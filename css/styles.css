@@ -536,8 +536,13 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 /* ======FOOTER========= */
 
 .footer {
-    background: #2e2f42;
-padding: 100px 0;
+background: #2e2f42;
+/* padding: 100px 0; */
+padding: 96px 0;
+}
+
+.footer .container {
+        width: 320px;
 }
 
 .footer-logo {
@@ -549,7 +554,7 @@ padding: 100px 0;
         text-transform: uppercase;
         color: #4d5ae5;
         display: inline-block;
-        margin-bottom: 16px
+        margin-bottom: 16px;
 }
 
 .footer-logo-text {
@@ -568,21 +573,40 @@ padding: 100px 0;
                 line-height: 1.5;
                 letter-spacing: 0.02em;
                 color: #f4f4fd;
-                width: 264px;
-                margin-top: 16px;
+                /* width: 264px; */
+                /* margin-top: 16px; */
+                width: 100%;
 }
 
 .footer-wrap {
         display: flex;
-        align-items: baseline;
-        justify-content: space-between;
+        /* align-items: baseline;
+        justify-content: space-between; */
+        flex-wrap: wrap;
+        gap: 72px;
+        
 }
 
 .footer-wrap-text {
-        margin-right: 120px;
+        /* margin-right: 120px; */
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        justify-content: center;
+        align-items: center;
+        
+
 }
 
+/* .footer-logo-text-wrap {
+} */
+
 .footer-wrap-social {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        justify-content: center;
+        align-items: center;
         
 }
 
@@ -617,7 +641,7 @@ padding: 100px 0;
 
 }
 
-.footer-social-link:hover,
+/* .footer-social-link:hover, */
 .footer-social-link:focus {
         background-color: #31d0aa;
 }
@@ -628,6 +652,13 @@ padding: 100px 0;
 }
 
 .footer-wrap-form {
+        width: 288px;
+        height: 136px;
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
         
 }
 
@@ -637,14 +668,12 @@ padding: 100px 0;
                 line-height: 1.5;
                 letter-spacing: 0.02em;
                 color: #fff;
-                margin-bottom: 16px;
+                /* margin-bottom: 16px; */
 }
 
 .footer-form {
-        width: 453px;
-        height: 80px;
-        display: flex;
-        gap: 24px;
+        width: 288px;
+        
 }
 
 .footer-input {
@@ -659,6 +688,7 @@ padding: 100px 0;
                 line-height: 2;
                 letter-spacing: 0.04em;
                 color: #ffffff;
+                margin-bottom: 16px;
 }
 
 .footer-input::placeholder {
@@ -685,11 +715,12 @@ padding: 100px 0;
         align-items: center;
         gap: 16px;
         min-width: 165px;
+        margin: 0 auto;
 }
 
-.footer-btn-icon {
+/* .footer-btn-icon {
         margin-left: 16px;
-}
+} */
 
 /* ======MODAL========= */
 
@@ -977,6 +1008,43 @@ color: #8e8f99;
                 margin-bottom: 36px;
         }
 
+        .footer .container {
+                width: 584px;
+        }
+
+        .footer-wrap {
+                gap: 72px 24px;
+        }
+
+        .footer-wrap-text {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 16px;
+                width: 264px;
+        }
+
+        .footer-wrap-social {
+                display: block;
+        }
+
+        .footer-wrap-form {
+                display: block;
+        }
+
+        .footer-form {
+                width: 453px;
+                display: flex;
+                gap: 24px;
+        }
+
+        .footer-btn {
+                margin: 0;
+        }
+
+        .footer-form-text {
+                margin-bottom: 16px;
+        }
+
 }
 
 @media screen and (min-width: 1158px) {
@@ -1098,6 +1166,47 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 
 .hero-tittle-btn:hover {
         background: #404bbf;
+}
+
+.footer .container {
+        width: 1158px;
+}
+
+.footer {
+        padding: 100px 0;
+}
+
+.footer-text {
+        width: 264px;
+        margin-top: 16px;
+}
+
+.footer-wrap {
+        align-items: baseline;
+        /* justify-content: space-between; */
+}
+
+.footer-wrap-text {
+        margin-right: 120px;
+        display: block;
+}
+
+.footer-wrap-social {
+        display: block;
+        margin-right: 80px;
+}
+
+.footer-social-link:hover {
+        background-color: #31d0aa;
+}
+
+.footer-form-text {
+        margin-bottom: 16px;
+}
+
+.footer-form {
+        width: 453px;
+        height: 80px;
 }
 
 }

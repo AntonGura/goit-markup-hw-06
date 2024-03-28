@@ -233,7 +233,7 @@ img {
         background-color: #2e2f42;
         background-image: linear-gradient(
         to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)
-        ), url(./images/background/Dark-bg-mob-x1.jpg);
+        ), url(/images/background/dark-bg-mob-x1.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -248,7 +248,7 @@ img {
 .hero {
 background-image: linear-gradient(
         to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-url(./images/background/Dark-bg-mob-x2.jpg);
+url(/images/background/dark-bg-mob-x2.jpg);
         }
 }
 
@@ -1127,7 +1127,7 @@ color: #8e8f99;
 
 .hero {
         background-color: #2e2f42;
-        background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/background/Dark-bg-tab-x1.jpg);
+        background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/background/dark-bg-tab-x1.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -1139,7 +1139,7 @@ color: #8e8f99;
         (min-resolution: 2dppx) {
 .hero {
         background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url(./images/background/Dark-bg-tab-x2.jpg);
+        url(/images/background/dark-bg-tab-x2.jpg);
         }
                                 }
 
@@ -1281,7 +1281,7 @@ color: #8e8f99;
 
         .hero {
                 background-color: #2e2f42;
-                background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/background/people-office-x1.jpg);
+                background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/background/people-office-x1.jpg);
                 background-repeat: no-repeat;
                 background-position: center;
                 background-size: cover;
@@ -1294,7 +1294,7 @@ color: #8e8f99;
         (min-resolution: 2dppx) {
                 .hero {
                         background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-                                url(./images/background/people-office-x2.jpg);
+                                url(/images/background/people-office-x2.jpg);
                 }
         }
 
